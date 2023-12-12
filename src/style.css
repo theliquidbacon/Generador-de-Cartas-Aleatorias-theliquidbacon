@@ -4,6 +4,9 @@
   height: 25em;
   border-radius: 5%;
 }
+.container {
+  width: 280px;
+}
 .card-header {
   vertical-align: top;
   border-bottom: none;
@@ -15,14 +18,12 @@
   font-size: 5em;
   transform: rotate(180deg);
 }
-.container {
-  width: 280px;
-}
 .card-number {
   font-size: 8em;
   font-family: fantasy;
   color: black;
 }
+
 .spade {
   color: black;
 }

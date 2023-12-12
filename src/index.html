@@ -9,43 +9,52 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <title>Generador de cartas de Gabriel</title>
   </head>
   <body>
-    <body class="bg-success">
-      <div class="container-fluid text-center">
-        <h1 class="mt-5">
-          Generador de Cartas Aleatorias
-        </h1>
-        <div id="poker">
-          <div class="card container">
-            <div
-              class="card-header bg-transparent text-start card-type"
-              style="left:4em;top:0em;"
+  <body class="bg-success">
+    <div class="container-fluid text-center">
+      <h1 class="mt-5">Generador de Cartas Aleatorias</h1>
+      <div id="poker">
+        <div class="card container">
+          <div
+            class="card-header bg-transparent text-start card-type"
+            style="left:4em;top:0em;"
+          >
+            Type
+          </div>
+          <div class="card-body text-dark">
+            <h1
+              class="card-number position-absolute top-50 start-50 translate-middle"
             >
-              Type
-            </div>
-            <div class="card-body text-dark">
-              <h1
-                class="card-number position-absolute top-50 start-50 translate-middle"
-              >
-                Number
-              </h1>
-            </div>
-            <div
-              class="card-footer bg-transparent text-start card-type2"
-              style="right:4em;top:0em;"
-            >
-              Type
-            </div>
+              Number
+            </h1>
+          </div>
+          <div
+            class="card-footer bg-transparent text-start card-type2"
+            style="right:4em;top:0em;"
+          >
+            Type
           </div>
         </div>
         <div class="p-2">
           <input
             class="btn btn-light update"
             type="button"
-            value="Generate Card"
+            value="Nueva Carta"
+          />
+          <input
+            type="text"
+            placeholder="Width (px)"
+            id="card-width"
+          />
+          <input
+            type="text"
+            placeholder="Height (px)"
+            id="card-height"
           />
         </div>
       </div>
+    </div>
   </body>
 </html>
